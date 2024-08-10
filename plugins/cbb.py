@@ -47,7 +47,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         
     elif query.data == "plan":
         btn = [[
-            InlineKeyboardButton(' Send Payment Screenshot (ADMIN)', url="t.me/UnseenAdmin")
+            InlineKeyboardButton(' Send Payment Screenshot (ADMIN)', url="t.me/nonuser_99_bot")
         ],[
             InlineKeyboardButton(' ᴄʟᴏꜱᴇ ', callback_data='close')
         ]]
