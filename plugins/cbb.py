@@ -13,9 +13,9 @@ message_content = '''👋 Hey {first}\n
 ● 299 rs For 3 Months Prime Membership\n
 ● 550 rs For 6 Months Prime Membership\n
 ● 999 rs For 1 Year Prime Membership</blockquote>\n\n
-💵 UPI ID - <code> wolf@psb</code>\n
+💵 UPI ID - <code> akash31768@fam</code>\n
 <b>(Tap to copy UPI Id)</b>\n\n
-📸 QR - <a href="https://graph.org/file/30f2719bec632aad4e5be.jpg">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>\n\n
+📸 QR - <a href="https://graph.org/Payment-08-10-5">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>\n\n
 ♻️ <b>If payment is not getting sent on above given QR code then inform admin, he will give you new QR code</b>\n\n
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ'''
 
@@ -25,7 +25,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     if data == "about":
         await query.message.edit_text(
             text = f"""<b><blockquote>╭───────────⍟
-├➤ ᴏᴡɴᴇʀ : <a href='t.me/InkaLinks'>ᴊᴜsᴛ ᴄʜɪᴘs</a>
+├➤ ᴏᴡɴᴇʀ : <a href='t.me/nonuser_99_bot'>ᴊᴜsᴛ ᴄʜɪᴘs</a>
 ├➤ ʟɪʙʀᴀʀy : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├➤ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
 ├➤ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/outlawbots>ᴏᴜᴛʟᴀᴡ ʙᴏᴛs</a>
@@ -53,7 +53,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         await query.message.reply_photo(
-            photo=("https://graph.org/file/30f2719bec632aad4e5be.jpg"),
+            photo=("https://graph.org/Payment-08-10-5"),
             caption=message_content.format(
                 first = query.from_user.mention, 
                 second = query.from_user.mention
@@ -76,7 +76,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [   
                     [
-                        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/InkaLinks"),
+                        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+ABedZZDabAxkZGZl"),
                         InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",url = "t.me/outlawbots")
                     ],
                     [   InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"), 
@@ -93,7 +93,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "home":
         await query.message.edit_text(
-            text=f"<b><blockquote>👋 Hey {query.from_user.mention}\n\nI'm advance bot of providing videos for @InkaLinks Channel!!..</blockquote></b>",
+            text=f"<b><blockquote>👋 Hello {query.from_user.mention}\n\nI'm  An Advanced Filestore Bot\n Working Under @all_from_adult_verse</blockquote></b>",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -126,7 +126,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 reply_markup = InlineKeyboardMarkup(
                     [
                         [  InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ",url= "t.me/ifeelscam"),
-                         InlineKeyboardButton("ᴀᴅᴍɪɴ",url = "t.me/UnseenAdmin")],
+                         InlineKeyboardButton("ᴀᴅᴍɪɴ",url = "t.me/obito_10_2")],
                         [ InlineKeyboardButton("🔙 ʙᴀᴄᴋ", callback_data = "home"),
                          InlineKeyboardButton( "🚫 ᴄʟᴏsᴇ", callback_data = "close")]
                     ]
