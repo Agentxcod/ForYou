@@ -67,7 +67,7 @@ async def start_command(client: Bot, message: Message):
             )
             await client.send_message(
                 message.chat.id,
-                "Congratulations! Ads token refreshed successfully! \n\nIt will expire after 24 Hour",
+                "Congratulations! Ads token refreshed successfully! \n\nIt will expire after 24 Hours",
                 reply_to_message_id=message.id,
             )
             return
@@ -101,7 +101,7 @@ async def start_command(client: Bot, message: Message):
                             )
                         ],[
                             InlineKeyboardButton(
-                                "How To Open Links? ", url='https://t.me/OpenLinksTutorial/3'                                                         
+                                "How To Open Links? ", url='https://t.me/Tutorial_to_open_xpshort/4'                                                         
                                 
                             )
                             
@@ -133,7 +133,7 @@ async def start_command(client: Bot, message: Message):
                             )
                         ],[
                             InlineKeyboardButton(
-                                "How To Open Links? ", url='https://t.me/OpenLinksTutorial/3'                                                         
+                                "How To Open Links? ", url='https://t.me/Tutorial_to_open_xpshort/4'                                                         
                                 
                             )
                             
@@ -256,14 +256,17 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(
                 "Join Channel",
-                url = client.invitelink)
+                url = client.invitelink),
+            InlineKeyboardButton(
+                "Join Channel",
+                url = "https://t.me/adult_verse04")
         ]
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = '♻️ Try Again ♻️',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
